@@ -1,0 +1,33 @@
+{
+	"name": "@yevheni/logg",
+	"version": "1.0.3",
+	"description": "Predefined colored console.log() based on \"chalk\" library",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"scripts": {
+		"build": "tsc",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/yevheni/logg.git"
+	},
+	"keywords": [
+		"log",
+		"console",
+		"console.log",
+		"color"
+	],
+	"author": "Yevhenii Korchak",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/yevheni/logg/issues"
+	},
+	"homepage": "https://github.com/yevheni/logg#readme",
+	"dependencies": {
+		"chalk": "^3.0.0"
+	},
+	"devDependencies": {
+		"typescript": "^3.8.3"
+	}
+}
